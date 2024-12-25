@@ -1,0 +1,13 @@
+type: executable
+name: ".playground"
+
+load-context.!standalone:
+  enabled: false
+
+deps:
+  - unex-filter
+
+cxx-env: clang-cl
+
+cxx-link-deps:
+  - Gdi32.lib

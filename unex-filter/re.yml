@@ -1,0 +1,13 @@
+type: static-library
+name: "unex-filter"
+
+deps:
+  - github:zwalloc/ulib ^1.0.0
+  - github:zwalloc/ulib-fmt ^1.0.0
+  - github:zwalloc/pelib ^1.0.0
+  - github:osdeverr/futile ^1.0.0
+
+cxx-env: clang-cl
+
+cxx-link-deps:
+  - ntdll.lib
